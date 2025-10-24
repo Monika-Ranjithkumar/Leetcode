@@ -1,6 +1,6 @@
 class Solution {
     public boolean isUgly(int n) {
-        if (n <= 0) return false;  // ugly numbers are positive
+        if (n <= 0) return false; 
 
         int[] primes = {2, 3, 5};
         for (int prime : primes) {
